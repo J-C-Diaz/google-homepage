@@ -1,0 +1,33 @@
+html, body{
+    background-color: black;
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    background-color: aliceblue;
+    align-items: center;
+    display: grid;
+}
+
+img{
+    justify-self: center;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#topLeft{
+    display: inline-block; 
+}
+
+#topRight{
+    display: inline-block;
+    justify-self: right;
+}
