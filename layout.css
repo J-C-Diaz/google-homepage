@@ -1,5 +1,5 @@
 html, body{
-    background-color: black;
+    background-color: white;
     margin: 0;
     height: 100%;
 }
@@ -12,6 +12,16 @@ html, body{
 
 img{
     justify-self: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    padding-left: 30px;
 }
 
 a{
@@ -30,4 +40,16 @@ a:hover{
 #topRight{
     display: inline-block;
     justify-self: right;
+}
+
+form{
+    margin: 20px;
+    justify-self: center;
+}
+
+footer{
+    position:absolute; 
+    bottom: 0px; 
+    width: 100%;
+    background-color: gray;
 }
