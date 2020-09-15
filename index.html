@@ -5,46 +5,52 @@
     <link rel="stylesheet" href="layout.css">
 </head>
 
-<body>
+<body">
     <div class="container">
-        <ul>
-            <li> <a> About </a> </li>
+        <ul style="padding: 10px;">
+            <li style="padding-left: 0px;"> <a> About </a> </li>
             <li> <a> Store </a> </li>
-            <li style="float: right;"> <button> Sign In</button></li>
+            <li style="float: right;"> <button
+                    style="color: white; background-color: royalblue; margin: 0px; padding: 4px;"> Sign In</button></li>
             <li style="float: right;"> <a> Images </a> </li>
             <li style="float: right;"> <a> Gmail </a> </li>
-            
+
         </ul>
 
         <img alt="google" src="googlelogo.png">
 
         <form>
-            <input type="text">
+            <input type="text" id="search"
+                style="width: 487px; height: 34px; border-color: #f2f2f2; border-style: solid;">
         </form>
 
-        <button>
-            Google Search
-        </button>
+        <row style="display: grid; align-items: center;">
+            <ul style="justify-self: center;">
+                <button>
+                    Google Search
+                </button>
 
-        <button>
-            I'm Feeling Lucky
-        </button>
+                <button>
+                    I'm Feeling Lucky
+                </button>
+            </ul>
+            <row>
     </div>
 
-    <div class="footer" style="position:absolute; bottom: 0px; width: 100%; background-color: lightgray;"> 
-        <ul>
-            <li> <a> Advertising </a> </li>
-            <li> <a> Business </a> </li>
-            <li> <a> How Search works</li>
-            <li style="float: right; padding-right: 30px;"> <a> Settings</a> </li>
-            <li style="float: right;"> <a> Terms </a> </li>
-            <li style="float: right;"> <a> Privacy </a> </li>
-            
-        </ul>
-    </div>    
+    <div class="footer" style="padding-bottom: 10px;""> 
+        <ul style=" padding-top: 12px;">
+        <li> <a> Advertising </a> </li>
+        <li> <a> Business </a> </li>
+        <li> <a> How Search works</li>
+        <li style="float: right; padding-right: 30px;"> <a> Settings</a> </li>
+        <li style="float: right;"> <a> Terms </a> </li>
+        <li style="float: right;"> <a> Privacy </a> </li>
 
-    
+        </ul>
+    </div>
+
+
     <script type="text/javascript" src="script.js"></script>
-</body>
+    </body>
 
 </html>
